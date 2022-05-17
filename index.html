@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro HTML + CSS</title>
+    <link rel="shortcut icon" href="img/lv-logo.png" type="image/x-icon">
+    <link href="https: //fonts.googleapis.com/css2? family= Vermelho+Rosa:wght@300&amp;Roboto:ital,wght@1,100;1,300&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+
+<body>
+    <div id="topo">
+        <div id="logo-menu">
+            <img src="img/lv-logo.png">
+        </div>
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li>
+                    <a href="#">meus videos</a>
+                </li>
+                <li>
+                    <a href="#">sobe mim</a>
+                </li>
+                <li>
+                    <a href="#">minhas cores</a>
+                </li>
+                <li>
+                    <a id="sem-margin" href="#">login/cadastro</a>
+                </li>
+            </ul>
+            <br class="clear-float">
+        </div>
+
+    </div>
+    <!-- FIM TOPO -->
+    <br class="clear-float">
+    <div id="banner"></div>
+    <!-- FIM BANNER -->
+    <div id="conteudo">
+        <div class="titulo">
+            <span>M</span>eus<span>V</span>ídeos
+        </div>
+        <div id="videos">
+            <div class="conteudo-videos">
+                <iframe height="315" src="https://www.youtube.com/embed/-Wh3X6BetxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe height="315" src="https://www.youtube.com/embed/-Wh3X6BetxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe height="315" src="https://www.youtube.com/embed/-Wh3X6BetxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="conteudo-videos">
+                <iframe height="315" src="https://www.youtube.com/embed/-Wh3X6BetxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe height="315" src="https://www.youtube.com/embed/-Wh3X6BetxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe height="315" src="https://www.youtube.com/embed/-Wh3X6BetxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <br class="clear-float">
+        </div>
+        <!-- FIM MEUS VIDEOS-->
+        <div class="titulo titulo-direita">
+            <span>S</span>obre<span>M</span>im
+        </div>
+        <br class="clear-float">
+
+        <div id="conteudo-sobre-mim">
+            <div id="social">
+                <img id="perfil" src="img/dbz.jpg">
+                <div id="conteudo-social">
+                    <img class="icone" src="img/fb.jpg">
+                    <img class="icone" src="img/insta.png">
+                </div>
+            </div>
+
+            <div id="texto-sobre-mim">
+                Caros amigos, o desafiador cenário globalizado maximiza as possibilidades por conta dos índices pretendidos. Desta maneira, a revolução dos costumes talvez venha a ressaltar a relatividade dos relacionamentos verticais entre as hierarquias. Desta maneira,
+                o início da atividade geral de formação de atitudes maximiza as possibilidades por conta do investimento em reciclagem técnica.
+            </div>
+            <br class="clear-float">
+        </div>
+        <!-- FIM CONTEUDO SOBRE MIM -->
+        <div class="titulo">
+            <span>M</span>inhas<span>C</span>ores
+        </div>
+        <div id="cores">
+            <div class="conteudo-cores">
+                <div class="bloco-cores vermelho"></div>
+                <div class="bloco-cores verde"></div>
+                <div class="bloco-cores azul"></div>
+            </div>
+            <div class="conteudo-cores">
+                <div class="bloco-cores branco"></div>
+                <div class="bloco-cores preto"></div>
+                <div class="bloco-cores amarelo"></div>
+            </div>
+            <br class="clear-float">
+        </div>
+        <!-- FIM MINHAS CORES -->
+        <div class="titulo titulo-direita">
+            <span>L</span>ogin/<span>C</span>adastro
+        </div>
+        <br class="clear-float">
+
+        <div id="conteudo-formulario">
+            <div id="login">
+                <span class="span-form"> Já tenho conta</span>
+                <form>
+                    <input type="email" name="email" placeholder="Digite seu e-mail.">
+                    <input type="password" name="senha" placeholder="Digite sua senha.">
+                    <input id="padrao" type="checkbox" name="lembre-me"><span class="span-form lembre-me">Lembre-me</span>
+                    <button type="submit" name="acessar">Acessar</button>
+                </form>
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+
+            <div id="cadastrar">
+                <span class="span-form"> Não é cadastrado? Preencha abaixo</span>
+                <form>
+                    <input type="text" name="nome" placeholder="Digite seu nome.">
+                    <input type="email" name="email" placeholder="Digite seu e-mail.">
+                    <input type="password" name="password" placeholder="Digite sua senha.">
+                    <button type="submit" name="cadastrar">Cadastrar</button>
+                </form>
+            </div>
+            <br class="clear-float">
+        </div>
+        <!-- FIM LOGIN/CADASTRAR -->
+    </div>
+    <!-- FIM CONTEUDO -->
+    <div id="rodape">
+        Desafio concluido.
+    </div>
+</body>
+
+</html>
