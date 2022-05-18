@@ -87,6 +87,8 @@ button {
     height: 400px;
     padding-top: 75px;
     background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #conteudo {
